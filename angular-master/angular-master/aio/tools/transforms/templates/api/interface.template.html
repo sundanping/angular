@@ -1,0 +1,8 @@
+{% import "lib/paramList.html" as params -%}
+{% extends 'export-base.template.html' -%}
+
+{% block details %}
+  {% include "includes/interface-overview.html" %}
+  {% include "includes/description.html" %}
+  {% include "includes/members.html" %}
+{% endblock %}
